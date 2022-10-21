@@ -3,7 +3,7 @@
 
 ```js
 const sssst5 = {
-  pronouns: "he" | "him",
+  pronouns: "he" | "she" | "they",
   code: [Python, HTML, CSS],
   tools: [PowerBi, SQL Server, Tableau],
 }
