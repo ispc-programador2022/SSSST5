@@ -9,9 +9,11 @@ const sssst5 = {
 }
 ```
 
-# COLABORADORES ♡
-★ Setién Gabriela Verónica
-★ Sena Martin ismael 
-★ Sierra Fernando 
-★ Soria Julio Ezequiel
-★ Tissera Jorgelina
+## COLABORADORES ✌
+* __Setién Gabriela Verónica__
+* __Sena Martin ismael__
+* __Sierra Fernando__
+* __Soria Julio Ezequiel__
+* __Tissera Jorgelina__
+
+> Esto es lo que una computadora significa para mi: es la herramienta más notable que hemos logrado tener. Es como una bicicleta para nuestras mentes. - Steve Jobs
