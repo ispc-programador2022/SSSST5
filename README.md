@@ -12,13 +12,14 @@ const sssst5 = {
   tools: [PowerBi, SQL Server, Tableau],
 }
 ```
-
+<body>
 ##  COLABORADORES ✌
 * __Setién Gabriela Verónica__
 * __Sena Martin ismael__
 * __Sierra Fernando__
 * __Soria Julio Ezequiel__
 * __Tissera Jorgelina__
-* <p style="color:rgb(255,0,0);">Red paragraph text</p>
 
-> Esto es lo que una computadora significa para mi: es la herramienta más notable que hemos logrado tener. Es como una bicicleta para nuestras mentes. - Steve Jobs
+<p style="color:rgb(255,0,0);"> Esto es lo que una computadora significa para mi: es la herramienta más notable que hemos logrado tener. Es como una bicicleta para nuestras mentes. - Steve Jobs</p>
+
+</body>
