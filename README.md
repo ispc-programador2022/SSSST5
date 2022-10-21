@@ -1,4 +1,4 @@
-# GRUPO SSSST5
+# Hello, we are the group SSSST5
 [![flayer.png](https://i.postimg.cc/28bSv0fN/flayer.png)](https://postimg.cc/D8hh3dZx)
 
 ```js
