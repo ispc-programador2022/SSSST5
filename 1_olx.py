@@ -7,12 +7,13 @@ from selenium import webdriver
 driver = webdriver.Chrome('./chromedriver.exe') #  NOMBRE DE TU CHROME DRIVER
 
 driver.get('https://www.olx.com.ar/autos_c378')
+driver.maximize_window()
 sleep(3)
 driver.refresh() # Solucion  donde los anuncios solo cargan al hacerle refresh o al darle click a algun elemento
 sleep(5) # Esperamos que cargue el boton
 # Busco el boton para cargar mas informacion
 boton = driver.find_element("xpath",'//button[@data-aut-id="btnLoadMore"]')
-for i in range(3): # Voy a darle click en cargar mas 3 veces
+for i in range(20): # Voy a darle click en cargar mas 3 veces
     try:
         # le doy click
         boton.click()
@@ -46,10 +47,12 @@ for auto in autos:
     #print (descripcion)
     año_km=auto.find_element("xpath",'.//span[@data-aut-id="itemDetails"]').text
     lista_año_km.append(año_km)
+driver.quit()
 #print(lista_precios)
 #print(lista_descripcion)
 mi_diccionario={'Precio':lista_precios, 'Descripcion':lista_descripcion,'Año-Km':lista_año_km}
 #print(mi_diccionario)
+
 
 import pandas as pd
 df=pd.DataFrame(mi_diccionario,columns=['Precio','Descripcion','Año-Km'])
