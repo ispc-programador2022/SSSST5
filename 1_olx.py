@@ -13,7 +13,7 @@ driver.refresh() # Solucion  donde los anuncios solo cargan al hacerle refresh o
 sleep(5) # Esperamos que cargue el boton
 # Busco el boton para cargar mas informacion
 boton = driver.find_element("xpath",'//button[@data-aut-id="btnLoadMore"]')
-for i in range(20): # Voy a darle click en cargar mas 3 veces
+for i in range(20): 
     try:
         # le doy click
         boton.click()
