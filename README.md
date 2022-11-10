@@ -47,8 +47,16 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 </p>
 
 ###1) Importar las librerias:
-<img src=""> ///captura pantalla del codigo donde se importan las librerias
+[![Captura1.jpg](https://i.postimg.cc/fbTpmjx1/Captura1.jpg)](https://postimg.cc/HrR6CMvt)
+##LIBRERIAS USADAS EN EL PROYECTO
 
+*[Selenium](#Selenium)
+
+*[Time](#Time)
+
+*[Random](#Random)
+
+*[Pandas](#Pandas)
 ###2) Instanciar Chromedriver
 
 <p>Dentro de una variable vamos a instanciar "chromedriver.exe", quien nos va a permitir hacer la simulación en el navegador y abrir la web a traves del metodo "driver.get()"</p>
