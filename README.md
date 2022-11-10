@@ -32,10 +32,6 @@ Al nosotros realizar un web scraper debemos tomar muy en cuenta nuestro propósi
 
 <h3 align="center">Tecnologias utilizadas</h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> </p>
 
@@ -46,9 +42,15 @@ Detalles del codigo y sus funciones:
 Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un lenguaje de programacion, poder automatizar las acciones que realiza el navegador, como si fuera un humano quien esta realizando las acciones, como por ejemplo "hacer click, sobre determinado boton", hacer un "scroll", "paginacion" y "extraer informaciòn" de la web indicada.
 </p>
 
-###1) Importar las librerias:
+<h3 align="left">1) IMPORTAMOS LAS LIBRERIAS A UTILIZAR</h3>
+<p align="left">
+</p>
+
 [![Captura1.jpg](https://i.postimg.cc/fbTpmjx1/Captura1.jpg)](https://postimg.cc/HrR6CMvt)
-##LIBRERIAS USADAS EN EL PROYECTO
+
+<h3 align="left">LIBRERIAS USADAS EN EL PROYECTO:</h3>
+<p align="left">
+</p>
 
 *[Selenium](#Selenium)
 
@@ -57,6 +59,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 *[Random](#Random)
 
 *[Pandas](#Pandas)
+<hr>
 ###2) Instanciar Chromedriver
 
 <p>Dentro de una variable vamos a instanciar "chromedriver.exe", quien nos va a permitir hacer la simulación en el navegador y abrir la web a traves del metodo "driver.get()"</p>
