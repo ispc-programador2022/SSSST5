@@ -42,13 +42,13 @@ Detalles del codigo y sus funciones:
 Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un lenguaje de programacion, poder automatizar las acciones que realiza el navegador, como si fuera un humano quien esta realizando las acciones, como por ejemplo "hacer click, sobre determinado boton", hacer un "scroll", "paginacion" y "extraer informaciòn" de la web indicada.
 </p>
 
-<h3 align="left">1) IMPORTAMOS LAS LIBRERIAS A UTILIZAR</h3>
+<h4 align="left">1) IMPORTAMOS LAS LIBRERIAS A UTILIZAR</h4>
 <p align="left">
 </p>
 
 [![Captura1.jpg](https://i.postimg.cc/fbTpmjx1/Captura1.jpg)](https://postimg.cc/HrR6CMvt)
 
-<h3 align="left">LIBRERIAS USADAS EN EL PROYECTO:</h3>
+<h4 align="left">LIBRERIAS USADAS EN EL PROYECTO:</h4>
 <p align="left">
 </p>
 
@@ -61,7 +61,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 *[Pandas](#Pandas)
 <hr>
 
-<h3 align="left">INSTANCIAR EL Chromedriver:</h3>
+<h4 align="left">INSTANCIAR EL Chromedriver:</h4>
 <p align="left">
 </p>
 
@@ -71,7 +71,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-<h3 align="left">INSPECCIONAR LA WEB:</h3>
+<h4 align="left">INSPECCIONAR LA WEB:</h4>
 <p align="left">
 </p>
 
