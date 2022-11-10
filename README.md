@@ -71,11 +71,15 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-###3) Inspeccionar la web
+<h3 align="left">INSPECCIONAR LA WEB:</h3>
+<p align="left">
+</p>
 
 <p>De esta manera podremos visualizar los elementos de la web que corresponde al contenido de la web. En nuestro caso como se trata de extraer datos correspondientes a la descripción, modelo y precio, hacemos un recorrido para detectar cual o cuales son esos elementos que se repiten dentro del codigo html, para asi usarlos como referencias a la hora de seleccionarlo con el "xpath" y almacenada en una variable</p>
 
-<img src=""> ///captura pantalla del codigo donde se instancia el xpath
+[![Captura3.jpg](https://i.postimg.cc/fTtkxp7Q/Captura3.jpg)](https://postimg.cc/jLTsT8kM)
+
+<hr>
 
 ###4) boton y ciclo for
 
