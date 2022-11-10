@@ -108,3 +108,5 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 [![Captura6.jpg](https://i.postimg.cc/W1jL2YnP/Captura6.jpg)](https://postimg.cc/pp01CZ40)
 
+
+<hr>
