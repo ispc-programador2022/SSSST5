@@ -24,7 +24,7 @@ const sssst5 = {
 <hr>
 
 <h4 align="left">1)¿Qué es un web Scraper?</h4>
-<p align="text-justify">
+<p style="text-align: justify;">
 Un scraper no es más que un programa el cual tiene como finalidad extraer información de sitios web. Este tipo de programas regularmente simulan la navegación de un usuario a través del protocolo HTTP. 😎<br>
 Podemos ver a un scraper como un pequeño bot, el cual, al nosotros indicar un target, es decir una página web, este comenzará un proceso de búsqueda y extracción de información. 🤖<br>
 Al software diseñado para scrapear páginas web comúnmente lo conoceremos como bot, spider, crawler o simplemente web scraper.<br>
@@ -77,7 +77,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 <p align="left">
 </p>
 
-<p>De esta manera podremos visualizar los elementos de la web que corresponde al contenido de la web. En nuestro caso como se trata de extraer datos correspondientes a la descripción, modelo y precio, hacemos un recorrido para detectar cual o cuales son esos elementos que se repiten dentro del codigo html, para asi usarlos como referencias a la hora de seleccionarlo con el "xpath" y almacenada en una variable</p>
+<p style="text-align: justify;">De esta manera podremos visualizar los elementos de la web que corresponde al contenido de la web. En nuestro caso como se trata de extraer datos correspondientes a la descripción, modelo y precio, hacemos un recorrido para detectar cual o cuales son esos elementos que se repiten dentro del codigo html, para asi usarlos como referencias a la hora de seleccionarlo con el "xpath" y almacenada en una variable</p>
 
 [![Captura3.jpg](https://i.postimg.cc/fTtkxp7Q/Captura3.jpg)](https://postimg.cc/jLTsT8kM)
 
@@ -93,3 +93,16 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 [![Captura4.jpg](https://i.postimg.cc/436TZbz0/Captura4.jpg)](https://postimg.cc/sBgL4WHP)
 
 <hr>
+
+<h4 align="left">SEGUNDO CICLO FOR Y DICCIONARIO:</h4>
+
+<p style="text-align: justify;">Este paso es importante, ya que debemos identificar los elementos que queremos extraer de la web y cuale o cuales son los atributos que la representan dentro del codigo HTML. Decidimos identificarlo a traves de un "xpath" ya que es la forma mas acertada y la cual podria generar menos errores a futuro en en recorrido de los datos a scrapear.<br> Los elementos a obtener son: PRECIOS, DESCRIPCION, AÑO Y KM. Las mismas son identificadas a traves de xpath y almacenadas en una variable distintiva para cada una y a su vez tenian la funcion "append" el cual cumplira con el almacenamiento de los datos extraidos. En la ultimas dos, nos surgio un problema, ambos elementos estaban alojados dentro de un mismo xpath: './/span[@data-aut-id="itemDetails"]', el cual tenia tanto AÑO como KM y se las necesitaba de manera separada para poder luego hacer la parte estadistica.<br> Por este motivo, luego del segundo ciclo for, se agrega uno mas el cual va a recorrer el ultimo xpath y se le da como intruccion a traves del metodo "lista=i.split('-')" que va a detectar el separador y va a almacenar los datos por separado "año.append(lista[0]), km.append(lista[1])". De esta manera pudimos comprobar a traves de un "print" que los datos ya estaban en columnas por separado.</p>
+
+[![Captura5.jpg](https://i.postimg.cc/KY1RNYgf/Captura5.jpg)](https://postimg.cc/67NW6tc4)
+
+
+
+
+
+
+
