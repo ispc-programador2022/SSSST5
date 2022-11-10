@@ -21,12 +21,14 @@ const sssst5 = {
 
 > Esto es lo que una computadora significa para mi: es la herramienta más notable que hemos logrado tener. Es como una bicicleta para nuestras mentes. - Steve Jobs
 
-##¿Qué es un web Scraper?
-<p>
-Un scraper no es más que un programa el cual tiene como finalidad extraer información de sitios web. Este tipo de programas regularmente simulan la navegación de un usuario a través del protocolo HTTP. 😎n\
-Podemos ver a un scraper como un pequeño bot, el cual, al nosotros indicar un target, es decir una página web, este comenzará un proceso de búsqueda y extracción de información. 🤖n\
-Al software diseñado para scrapear páginas web comúnmente lo conoceremos como bot, spider, crawler o simplemente web scraper.n\
-La ventaja de un web scraper recae en su automatización. Si bien es cierto nosotros podemos extraer información de páginas web, de forma manual, este proceso puede llevarnos una gran cantidad de tiempo y esfuerzo.n\
+<hr>
+
+<h4 align="left">1)¿Qué es un web Scraper?</h4>
+<p align="text-justify">
+Un scraper no es más que un programa el cual tiene como finalidad extraer información de sitios web. Este tipo de programas regularmente simulan la navegación de un usuario a través del protocolo HTTP. 😎<br>
+Podemos ver a un scraper como un pequeño bot, el cual, al nosotros indicar un target, es decir una página web, este comenzará un proceso de búsqueda y extracción de información. 🤖<br>
+Al software diseñado para scrapear páginas web comúnmente lo conoceremos como bot, spider, crawler o simplemente web scraper.<br>
+La ventaja de un web scraper recae en su automatización. Si bien es cierto nosotros podemos extraer información de páginas web, de forma manual, este proceso puede llevarnos una gran cantidad de tiempo y esfuerzo.<br>
 Al nosotros realizar un web scraper debemos tomar muy en cuenta nuestro propósito. Recordemos que un scraper simula la navegación de un usuario. Si en dado caso nuestro programa no contempla ciertos parámetros, por ejemplo un número limitado de peticiones o la rapidez con que estas se hacen, podemos hacer que el sitio web el cual estamos scrapeando tenga un rendimiento lento o inclusive llegue colapsar. Es por ello que hay que ser muy conscientes en el número de peticiones y la forma en la cual obtendremos la página web .
 </p>  
 
@@ -81,9 +83,13 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-###4) boton y ciclo for
+<h4 align="left">BOTON Y CICLO FOR:</h4>
+<p align="left">
+</p>
 
 <p>Al hacer scroll sobre la web, nos topamos con que la misma no sigue cargando mas aritculos, sino que tiene un boton "CARGAR MAS" la cual permite traer mas resultados en la busqueda. Es por eso que se tuvo que detercar a traves de una inspeccion de la web y traer en codigo el xpath del mismo, para luego automatizar el click con la funcion ".click()".</p>
 <p>La funcion "sleep" cumple una función importante a la hora de la automatización, ya que el mismo permite darle un tiempo de espera a nuestro codigo y a la web, antes de seguir corriendo el script. Esta funcion debe ser lo mas parecida a un "humano", ya que si siempre damos un mismo valor, la web podria detectar que es un "robot" y asi es que evadimos si la misma tiene un detector de "bot", asi que es necesario "randomizar" ese intervalo de tiempo " sleep(random.uniform(8.0, 10.0))" Uniform lo que hace es darnos un valor aleatorio entre 8" y 10" </p>
 
+[![Captura4.jpg](https://i.postimg.cc/436TZbz0/Captura4.jpg)](https://postimg.cc/sBgL4WHP)
 
+<hr>
