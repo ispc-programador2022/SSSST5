@@ -60,10 +60,15 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 *[Pandas](#Pandas)
 <hr>
-###2) Instanciar Chromedriver
+
+<h3 align="left">INSTANCIAR EL Chromedriver:</h3>
+<p align="left">
+</p>
 
 <p>Dentro de una variable vamos a instanciar "chromedriver.exe", quien nos va a permitir hacer la simulación en el navegador y abrir la web a traves del metodo "driver.get()"</p>
-<img src=""> ///captura pantalla del codigo donde se instancia "chromedriver.exe"
+[![Captura2.jpg](https://i.postimg.cc/zBZrW2kp/Captura2.jpg)](https://postimg.cc/wtVZYVZs)
+
+<hr>
 
 ###3) Inspeccionar la web
 
