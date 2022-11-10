@@ -104,7 +104,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <h4 align="left">6) PASAJE DE DATOS A UN CSV:</h4>
 
+<p>En este ultimo paso realizamos el pasaje de los datos a un archivo CSV la cual luego nos va a permitir poder trabajar con herramientas de visualizacion.</p>
 
-
-
+[![Captura6.jpg](https://i.postimg.cc/W1jL2YnP/Captura6.jpg)](https://postimg.cc/pp01CZ40)
 
