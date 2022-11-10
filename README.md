@@ -30,9 +30,7 @@ La ventaja de un web scraper recae en su automatización. Si bien es cierto noso
 Al nosotros realizar un web scraper debemos tomar muy en cuenta nuestro propósito. Recordemos que un scraper simula la navegación de un usuario. Si en dado caso nuestro programa no contempla ciertos parámetros, por ejemplo un número limitado de peticiones o la rapidez con que estas se hacen, podemos hacer que el sitio web el cual estamos scrapeando tenga un rendimiento lento o inclusive llegue colapsar. Es por ello que hay que ser muy conscientes en el número de peticiones y la forma en la cual obtendremos la página web .
 </p>  
 
-##Tecnologias utilizadas
-
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">Tecnologias utilizadas</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
