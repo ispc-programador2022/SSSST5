@@ -63,7 +63,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 *[Pandas](#Pandas)
 <hr>
 
-<h4 align="left">INSTANCIAR EL Chromedriver:</h4>
+<h4 align="left">2) INSTANCIAR EL Chromedriver:</h4>
 <p align="left">
 </p>
 
@@ -73,7 +73,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-<h4 align="left">INSPECCIONAR LA WEB:</h4>
+<h4 align="left">3) INSPECCIONAR LA WEB:</h4>
 <p align="left">
 </p>
 
@@ -83,7 +83,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-<h4 align="left">BOTON Y CICLO FOR:</h4>
+<h4 align="left">4) BOTON Y CICLO FOR:</h4>
 <p align="left">
 </p>
 
@@ -94,13 +94,15 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <hr>
 
-<h4 align="left">SEGUNDO CICLO FOR Y DICCIONARIO:</h4>
+<h4 align="left">5) SEGUNDO CICLO FOR Y DICCIONARIO:</h4>
 
-<p style="text-align: justify;">Este paso es importante, ya que debemos identificar los elementos que queremos extraer de la web y cuale o cuales son los atributos que la representan dentro del codigo HTML. Decidimos identificarlo a traves de un "xpath" ya que es la forma mas acertada y la cual podria generar menos errores a futuro en en recorrido de los datos a scrapear.<br> Los elementos a obtener son: PRECIOS, DESCRIPCION, AÑO Y KM. Las mismas son identificadas a traves de xpath y almacenadas en una variable distintiva para cada una y a su vez tenian la funcion "append" el cual cumplira con el almacenamiento de los datos extraidos. En la ultimas dos, nos surgio un problema, ambos elementos estaban alojados dentro de un mismo xpath: './/span[@data-aut-id="itemDetails"]', el cual tenia tanto AÑO como KM y se las necesitaba de manera separada para poder luego hacer la parte estadistica.<br> Por este motivo, luego del segundo ciclo for, se agrega uno mas el cual va a recorrer el ultimo xpath y se le da como intruccion a traves del metodo "lista=i.split('-')" que va a detectar el separador y va a almacenar los datos por separado "año.append(lista[0]), km.append(lista[1])". De esta manera pudimos comprobar a traves de un "print" que los datos ya estaban en columnas por separado.</p>
+<p style="text-align: justify;">Este paso es importante, ya que debemos identificar los elementos que queremos extraer de la web y cuale o cuales son los atributos que la representan dentro del codigo HTML. Decidimos identificarlo a traves de un "xpath" ya que es la forma mas acertada y la cual podria generar menos errores a futuro en en recorrido de los datos a scrapear.<br> Los elementos a obtener son: PRECIOS, DESCRIPCION, AÑO Y KM. Las mismas son identificadas a traves de xpath y almacenadas en una variable distintiva para cada una y a su vez tenian la funcion "append" el cual cumplira con el almacenamiento de los datos extraidos. En la ultimas dos, nos surgio un problema, ambos elementos estaban alojados dentro de un mismo xpath: './/span[@data-aut-id="itemDetails"]', el cual tenia tanto AÑO como KM y se las necesitaba de manera separada para poder luego hacer la parte estadistica.<br> Por este motivo, luego del segundo ciclo for, se agrega uno mas el cual va a recorrer el ultimo xpath y se le da como intruccion a traves del metodo "lista=i.split('-')" que va a detectar el separador y va a almacenar los datos por separado "año.append(lista[0]), km.append(lista[1])". De esta manera pudimos comprobar a traves de un "print" que los datos ya estaban en columnas por separado.<br> Por ultimo, se almacenan los datos en una variable *"mi_diccionario"* para luego ser alojado en un *DataFrame*.</p>
 
 [![Captura5.jpg](https://i.postimg.cc/KY1RNYgf/Captura5.jpg)](https://postimg.cc/67NW6tc4)
 
+<hr>
 
+<h4 align="left">6) PASAJE DE DATOS A UN CSV:</h4>
 
 
 
