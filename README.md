@@ -66,6 +66,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 </p>
 
 <p>Dentro de una variable vamos a instanciar "chromedriver.exe", quien nos va a permitir hacer la simulación en el navegador y abrir la web a traves del metodo "driver.get()"</p>
+
 [![Captura2.jpg](https://i.postimg.cc/zBZrW2kp/Captura2.jpg)](https://postimg.cc/wtVZYVZs)
 
 <hr>
