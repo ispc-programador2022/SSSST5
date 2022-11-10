@@ -106,7 +106,7 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 
 <p>En este ultimo paso realizamos el pasaje de los datos a un archivo CSV la cual luego nos va a permitir poder trabajar con herramientas de visualizacion.</p>
 
-'''py
+'''phyton
 import pandas as pd
 df=pd.DataFrame(mi_diccionario,columns=['Precio','Descripcion','Año','Km'])
 print(df)
