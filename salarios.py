@@ -50,8 +50,8 @@ for salario in Salarios:
 
 
 
-print ("\nla cantidad de sueldos menores a 150000 son: ",cant_menor_igual_150)
-print("\n El sueldo promedio entres los sueldos menores o iguales a $150000 es: $",round(suma1/cant_menor_igual_150,3))
+print ("\nLa cantidad de sueldos menores a 150000 son: ",cant_menor_igual_150)
+print("\nEl sueldo promedio entres los sueldos menores o iguales a $150000 es: $",round(suma1/cant_menor_igual_150,3))
 print("\nLa cantidad de sueldos mayores a 150000 y menores o iguales a 300000 son: ",cant_150_y_300)
 print("\nEl sueldo promedio entres los sueldos entres $150000 y $300000 es: $",round(suma2/cant_150_y_300,3))
 print("\nLa cantidad de sueldos mayores a 300000 y menores o iguales a 500000 son: ",cant_300_y_500)
