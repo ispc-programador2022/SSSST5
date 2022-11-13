@@ -1,5 +1,6 @@
 
 import csv
+import matplotlib.pyplot as plt
 
 def promedios(suma, cantidad):
     promedios=suma//cantidad
@@ -87,6 +88,30 @@ print("\nLa cantidad de sueldos mayores a 500000 son: ",cant_mayor_500)
 prom_500=promedios(suma4, cant_mayor_500) 
 print("\nEl sueldo promedio entre los sueldos mayores a $500000 es: $", prom_500)
 print("\nLa capacidad de ahorro de este grupo es: $",ahorro(prom_500))
+
+#Gráfico porcentajes según los rangos de sueldos
+cantidad_sueldos_por_rango=[cant_menor_igual_150,cant_150_y_300,cant_300_y_500,cant_mayor_500]
+nombres=["<=150000",">150000-<=300000",">300000-<=500000",">500000"]
+plt.pie(cantidad_sueldos_por_rango, labels=nombres,autopct="%0.1f%% ")
+plt.title("Porcentajes según los rangos de sueldos: \n Análisis con respecto a 273 salarios ")
+plt.axis("equal")
+plt.savefig("Porcentajes sueldos.png") 
+plt.show()
+
+
+#Gráfico Capacidad de Ahorro
+
+capacidad_ahorro=[ahorro(prom_150_300),ahorro(prom_300_500),ahorro(prom_500)]
+nombres=["150000-300000","300000-500000",">500000"]
+fig, ax=plt.subplots()
+#Etiqueta en eje Y
+ax.set_ylabel("Ahorro Mensual")
+#Etiqueta en eje X
+ax.set_title("Rangos sueldos")
+plt.bar(nombres, capacidad_ahorro)
+plt.savefig("Capacidad ahorro.png")
+plt.show()
+
 
 
 dictSalarios={'sueldos':total_sueldos,
