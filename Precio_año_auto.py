@@ -137,7 +137,7 @@ fig, ax=plt.subplots()
 ax.set_ylabel("Cantidad")
 #Etiqueta en eje X
 ax.set_title("Autos por rango de modelo")
-plt.bar(nombres, Modelo_año)
+plt.bar(nombres, Modelo_año,color='turquoise')
 plt.savefig("Autos_por_año.png")
 plt.show()
 
