@@ -44,7 +44,7 @@ Propuesta del proyecto
 </h4>
 
 <p>
-Extraer y comparar los valores de los autos usados de la web [olx](https://www.olx.com.ar/autos_c378) con respecto a los valores de los sueldos actuales en Argentina de algunas profesiones como: Docentes, Industria IT, Comercio, etc. La idea es poder lograr predecir cuanto tiempo le llevaria a un trabajador poder comprarse un auto, teniendo en cuenta el valor de la canasta basica actual.
+Extraer y comparar los valores de los autos usados de la web https://www.olx.com.ar/autos_c378 con respecto a los valores de los sueldos actuales en Argentina de algunas profesiones como: Docentes, Industria IT, Comercio, etc. La idea es poder lograr predecir cuanto tiempo le llevaria a un trabajador poder comprarse un auto, teniendo en cuenta el valor de la canasta basica actual.
 </p>
 
 <h4 align="center">
@@ -117,3 +117,11 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 <p>En este ultimo paso realizamos el pasaje de los datos a un archivo CSV la cual luego nos va a permitir poder trabajar con herramientas de visualizacion.</p>
 
 [![Captura6.jpg](https://i.postimg.cc/W1jL2YnP/Captura6.jpg)](https://postimg.cc/pp01CZ40)
+
+<hr>
+
+<h4 align="center">
+Conclusión final
+</h4>
+<p>
+</p>
