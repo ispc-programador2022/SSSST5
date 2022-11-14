@@ -44,7 +44,7 @@ Propuesta del proyecto
 </h4>
 
 <p>
-Extraer y comparar los valores de los autos usados de la web https://www.olx.com.ar/autos_c378 con respecto a los valores de los sueldos actuales en Argentina de algunas profesiones como: Docentes, Industria IT, Comercio, etc. La idea es poder lograr predecir cuanto tiempo le llevaria a un trabajador poder comprarse un auto, teniendo en cuenta el valor de la canasta basica actual.
+Extraer y comparar los valores de los autos usados de la web https://www.olx.com.ar/autos_c378 con respecto a los valores de los sueldos actuales en Argentina de algunas profesiones como: Docentes, Industria IT, Comercio, etc. La idea es poder lograr predecir cuanto tiempo le llevaria a un trabajador poder comprarse un auto, teniendo en cuenta el valor de la canasta basica según el INDEC (Instituto Nacional de Estadisticas y Censos).
 </p>
 
 <h4 align="center">
