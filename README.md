@@ -139,6 +139,6 @@ Conclusión final
 <p style="text-align,"> Tambien se recopilo información a traves de un archivo CSV de los sueldos según el cargo, para poder realizar promedios en rangos de salarios con el fin de poder determinar la cantidad de meses que le puede llevar a una persona dependiendo de su capacidad de ahorro</p>
 
 
-
+<hr>
 
 
