@@ -48,13 +48,19 @@ for auto in autos:
     año_km=auto.find_element("xpath",'.//span[@data-aut-id="itemDetails"]').text
     lista_año_km.append(año_km)
 driver.quit()
+año=[]
+km=[]
+for i in lista_año_km:
+    lista=i.split('-')
+    año.append(lista[0])
+    km.append(lista[1])
 #print(lista_precios)
 #print(lista_descripcion)
-mi_diccionario={'Precio':lista_precios, 'Descripcion':lista_descripcion,'Año-Km':lista_año_km}
+mi_diccionario={'Precio':lista_precios, 'Descripcion':lista_descripcion,'Año':año,'Km':km}
 #print(mi_diccionario)
 
 
 import pandas as pd
-df=pd.DataFrame(mi_diccionario,columns=['Precio','Descripcion','Año-Km'])
+df=pd.DataFrame(mi_diccionario,columns=['Precio','Descripcion','Año','Km'])
 print(df)
 df.to_csv('salida_productos.csv',index=False)
