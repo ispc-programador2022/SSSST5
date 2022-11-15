@@ -123,5 +123,8 @@ Selenium tecnicamente hablando es un driver que nos permite a nosotros desde un 
 <h4 align="center">
 Conclusión final
 </h4>
-<p>
-</p>
+<p style="text-align;"> Mediante el archivo CSV obtenido con la técnica de Web Scrapping se realizo el análisis de los datos, para lo cual se decidio trabajar con rangos de precios de autos. Los intervalos que se consideraron son: de $500000 a $1.5M, de $1.5M a $2.5M, de $3.5M a $5M, de $5M a $6.5M y mayores de $6.5M. El propósito de estos intervalos fue el de obtener un valor promedio de los automóviles en los intervalos analizados</p>
+
+[![Captura7.png](https://i.postimg.cc/8cKrbFfk/Captura7.png)](https://postimg.cc/T5bwd3cB)
+
+
