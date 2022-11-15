@@ -128,3 +128,17 @@ Conclusión final
 [![Captura7.png](https://i.postimg.cc/8cKrbFfk/Captura7.png)](https://postimg.cc/T5bwd3cB)
 
 
+<p style="text-align;"> Con esta información que fuimos obteniendo además de quedar guardada en un archivo CSV se decidio plasmarla en gráficos de forma tal que resulte más amigable para interpretarla. Se realizó un gráfico de torta, que nos muestra el porcentaje de autos que hay en cada rango de precio; y también un gráfico de barras con la cantidad de años según el modelo de auto. Si bien la técnica de Scrapping se llevo a cabo en 512 elementos, varios tuvieron que ser descartados, ya que no incluian el valor del auto, que es fundamental para realizar nuestro análisis</p>
+
+[![Captura-de-pantalla-5.png](https://i.postimg.cc/JhMZMW8L/Captura-de-pantalla-5.png)](https://postimg.cc/nXSCGgMR)
+
+[![Captura-de-pantalla-6.png](https://i.postimg.cc/28WH2v7X/Captura-de-pantalla-6.png)](https://postimg.cc/0b8dNz3p)
+
+[![Captura-de-pantalla1.png](https://i.postimg.cc/9fsR84pJ/Captura-de-pantalla1.png)](https://postimg.cc/WD61t1xk)
+
+<p style="text-align,"> Tambien se recopilo información a traves de un archivo CSV de los sueldos según el cargo, para poder realizar promedios en rangos de salarios con el fin de poder determinar la cantidad de meses que le puede llevar a una persona dependiendo de su capacidad de ahorro</p>
+
+
+
+
+
