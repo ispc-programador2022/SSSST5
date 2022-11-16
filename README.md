@@ -165,7 +165,7 @@ Conclusión final
 
 [![Captura-de-pantalla-16.png](https://i.postimg.cc/VLrbQWSm/Captura-de-pantalla-16.png)](https://postimg.cc/2VY5nvFK)
 
-<br>
+
 [![Captura-de-pantalla-17.png](https://i.postimg.cc/PJBJr0Lh/Captura-de-pantalla-17.png)](https://postimg.cc/4HQsWLbF)
 
 
