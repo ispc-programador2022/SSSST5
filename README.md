@@ -138,6 +138,19 @@ Conclusión final
 
 <p style="text-align,"> Tambien se recopilo información a traves de un archivo CSV de los sueldos según el cargo, para poder realizar promedios en rangos de salarios con el fin de poder determinar la cantidad de meses que le puede llevar a una persona dependiendo de su capacidad de ahorro</p>
 
+[![Captura-de-pantalla-8.png](https://i.postimg.cc/Ss79nS6d/Captura-de-pantalla-8.png)](https://postimg.cc/mzkkqG61)
+
+<p style="text-align,"> Con dicha información se planteo la búsqueda de sueldos promedios en función de intervalos que planteamos. Los intervalos que se analizaron son: sueldos menores a $150000, sueldos entre $150000 y $300000, sueldos entre $300000 y $500000 y sueldos mayores a $500000. A los sueldos promedio que encontramos en estos intervalos se les desconto el valor de la canasta básica, con el fin de obtener la capacidad de ahorro. </p>
+
+[![Captura-de-pantalla-9.png](https://i.postimg.cc/fyM0QG0P/Captura-de-pantalla-9.png)](https://postimg.cc/JDdhbdx3)
+
+<p style="text-align,"> Cabe destacar que fueron finalmente excluidos del análisis el primer intervalo de Sueldos, ya que no cubren las necesidades básicas de la canasta familiar, se realizaron graficas con los porcentajes según los rangos de sueldos. También se presenta un gráfico de barras que refleja la capacidad de ahorro que se tiene según el intervalo de sueldos que se analiza </p>
+
+[![Captura-de-pantalla-11.png](https://i.postimg.cc/PJqr4TDd/Captura-de-pantalla-11.png)](https://postimg.cc/R6jBCrGY)
+
+
+[![Captura-de-pantalla-12.png](https://i.postimg.cc/PqhHydG0/Captura-de-pantalla-12.png)](https://postimg.cc/9DxsF5QB)
+
 
 <hr>
 
