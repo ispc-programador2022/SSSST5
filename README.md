@@ -152,6 +152,23 @@ Conclusión final
 [![Captura-de-pantalla-12.png](https://i.postimg.cc/PqhHydG0/Captura-de-pantalla-12.png)](https://postimg.cc/9DxsF5QB)
 
 
+<p style="text-align,"> Con todos la información obtenida se procede a hacer el análisis de el tiempo estimado en meses que demorara una persona en poder adquirir un auto, esto dependerá, de su capacidad de ahorro y del valor del vehículo que quiera adquirir, se presentan las conclusiones y también se realizan los gráficos que hacen referencia a dicho informe </p>
+
+[![Captura-de-pantalla-13.png](https://i.postimg.cc/15hyXGC9/Captura-de-pantalla-13.png)](https://postimg.cc/Hj2qPy1K)
+<br>
+[![Captura-de-pantalla-14.png](https://i.postimg.cc/3JS99Bsh/Captura-de-pantalla-14.png)](https://postimg.cc/dLC8V8QN)
+<br>
+
+
+[![Captura-de-pantalla-15.png](https://i.postimg.cc/xT4yLdmT/Captura-de-pantalla-15.png)](https://postimg.cc/mt7HsBV0)
+<br>
+
+[![Captura-de-pantalla-16.png](https://i.postimg.cc/VLrbQWSm/Captura-de-pantalla-16.png)](https://postimg.cc/2VY5nvFK)
+
+<br>
+[![Captura-de-pantalla-17.png](https://i.postimg.cc/PJBJr0Lh/Captura-de-pantalla-17.png)](https://postimg.cc/4HQsWLbF)
+
+
 <hr>
 
 
