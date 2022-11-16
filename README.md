@@ -144,9 +144,9 @@ Conclusión final
 
 [![Captura-de-pantalla-9.png](https://i.postimg.cc/fyM0QG0P/Captura-de-pantalla-9.png)](https://postimg.cc/JDdhbdx3)
 
-<p style="text-align,"> Cabe destacar que fueron finalmente excluidos del análisis el primer intervalo de Sueldos, ya que no cubren las necesidades básicas de la canasta familiar, se realizaron graficas con los porcentajes según los rangos de sueldos. También se presenta un gráfico de barras que refleja la capacidad de ahorro que se tiene según el intervalo de sueldos que se analiza </p>
+<p style="text-align,"> Cabe destacar que fueron finalmente excluidos del análisis el primer intervalo de Sueldos, ya que no cubren las necesidades básicas de la canasta familiar, se realizaron graficas con los porcentajes según los rangos de sueldos. También se presenta un gráfico de barras que refleja la capacidad de ahorro que se tiene según el intervalo de sueldos que se analiza.</p>
 
-[![Captura-de-pantalla-11.png](https://i.postimg.cc/PJqr4TDd/Captura-de-pantalla-11.png)](https://postimg.cc/R6jBCrGY)
+[![Captura-Est.jpg](https://i.postimg.cc/8z7J0sbk/Captura-Est.jpg)](https://postimg.cc/mPGgcLqK)
 
 
 [![Captura-de-pantalla-12.png](https://i.postimg.cc/PqhHydG0/Captura-de-pantalla-12.png)](https://postimg.cc/9DxsF5QB)
