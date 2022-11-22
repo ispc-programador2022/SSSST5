@@ -1,0 +1,18 @@
+sudo apt install mysql-server
+sudo systemctl status mysql
+pip install mysql-connector-python
+sudo mysql -u root -p
+
+
+CREATE USER 'nuevousuario'@'localhost' IDENTIFIED BY 'contrasena';
+GRANT ALL PRIVILEGES ON * . * TO 'nuevousuario'@'localhost';
+
+
+mysql -u nuevousuario -p
+create database proyecto;
+use  proyecto;
+CREATE TABLE autos (descripcion VARCHAR(200), precio BIGINT , anioVARCHAR(20), km BIGINT);
+
+En el script "conexion_v2.py" configurar los datos de la base de datos como y el usuario y contraseña
+ejecutar el scrip: python3 conexion_v2.py
+
